@@ -34,4 +34,12 @@ public class OrangeHRM extends OrangeHRMBaseClass  {
 		System.out.println(title);
 		
 	}
+	@Test
+	public void verifyDirectoryPage1() {
+		DirectoryPage p=new DirectoryPage(driver);
+		p.setDirect();
+		String title=p.setverifyDirect();
+		System.out.println(title);
+		
+	}
 }
